@@ -5,7 +5,7 @@
  * Course: ITEC 2140 Spring 2023
  * Written: February 9, 2023
  * This program will calculate the perimeter of the triangle if the input is valid, otherwise it prints invalid.
- * In this program, I will declare variables:
+ * In this program, I will declare variables: edge1, edge2, edge3, PerimeterOfTriangle.
  */
 
 
