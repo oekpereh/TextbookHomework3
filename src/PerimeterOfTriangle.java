@@ -13,16 +13,17 @@ import java.util.Scanner;
 public class PerimeterOfTriangle {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+
         System.out.println("Enter the 3 edges of a triangle.");
-        System.out.print("Edge 1: ");
-
+        System.out.print("Edge 1: "); //taking input from the user
         double edge1 = input.nextDouble();
-        System.out.print("Edge 2: ");
 
+        System.out.print("Edge 2: ");//taking input from the user
         double edge2 = input.nextDouble();
-        System.out.print("Edge 3: ");
 
+        System.out.print("Edge 3: ");//taking input from user
         double edge3 = input.nextDouble();
+
         if (edge1 < edge2 + edge3 && edge2 < edge1 + edge3 && edge3 < edge1 + edge2) {
             double PERIMETER_OF_TRIANGLE = edge1 + edge2 + edge3;
             System.out.println("Perimeter of triangle = " + PERIMETER_OF_TRIANGLE);
